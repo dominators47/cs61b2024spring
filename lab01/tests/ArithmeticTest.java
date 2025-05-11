@@ -10,8 +10,10 @@ import static com.google.common.truth.Truth.assertThat;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class ArithmeticTest {
 
-    /** Performs a few arbitrary tests to see if the product method is
-     * correct */
+    /**
+     * Performs a few arbitrary tests to see if the product method is
+     * correct
+     */
     @Test
     @Order(0)
     @DisplayName("Test product correctness")
@@ -22,7 +24,9 @@ public class ArithmeticTest {
         assertThat(Arithmetic.product(-5, -6)).isEqualTo(30);
     }
 
-    /** Performs a few arbitrary tests to see if the sum method is correct */
+    /**
+     * Performs a few arbitrary tests to see if the sum method is correct
+     */
     @Test
     @Order(1)
     @DisplayName("Test sum correctness")
